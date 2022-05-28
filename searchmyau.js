@@ -80,17 +80,3 @@ else
     window.location.reload();
      }
      }
-
-if (window.location.protocol == 'https:') {
-     
-    console.log("gbfffffffffffffghtfgrtgrrrr");
-         
-    window.location.href =
-        window.location.href.replace(
-                   'https:', 'http:');
-}
-else{
-        console.log("rrrrrrrrrrrrrrrr")
-    }
-
-
