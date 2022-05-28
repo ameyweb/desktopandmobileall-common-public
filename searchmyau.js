@@ -32,6 +32,23 @@ $.get(url, function(data){
 }
 
 
+if (window.location.protocol == 'http:') {
+     
+    console.log("you are accessing us via "
+        +  "an insecure protocol (HTTP). "
+        + "Redirecting you to HTTPS.");
+         
+    window.location.href =
+        window.location.href.replace(
+                   'http:', 'https:');
+}
+else
+    (window.location.protocol == "https:") {
+        console.log("you are accessing us via"
+            + " our secure HTTPS protocol.");
+    }
+
+
  
    function enterfun() {
      if(page === "search..."){
@@ -63,4 +80,17 @@ $.get(url, function(data){
     window.location.reload();
      }
      }
+
+if (window.location.protocol == 'https:') {
+     
+    console.log("gbfffffffffffffghtfgrtgrrrr");
+         
+    window.location.href =
+        window.location.href.replace(
+                   'https:', 'http:');
+}
+else{
+        console.log("rrrrrrrrrrrrrrrr")
+    }
+
 
